@@ -10,6 +10,13 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="styles/styles.css" />
     <title>Resume</title>
   </head>
@@ -17,19 +24,21 @@
     <!-- Main -->
     <div class="main">
       <!-- Main content -->
-      <div class="main-content">
+      <div class="container">
         <!-- about user -->
-        <div class="about">
-          <h2 class="about-position">FullStack developer</h2>
+        <section class="section about">
+          <h3 class="about-position">FullStack developer</h3>
           <h1 class="about-name">Oleg Andreiev</h1>
+          <h2 class="visually-hidden">about</h2>
+
           <p class="about-description">
             Success comes to those who strive for it. To appreciate the road, you need to go through
             it.
           </p>
-        </div>
+        </section>
         <!-- Projects -->
-        <div class="projects">
-          <h3 class="title">Projects</h3>
+        <section class="section projects">
+          <h2 class="title">Projects</h2>
           <ol class="projects-list">
             <li class="project-item">
               <span class="project">
@@ -42,10 +51,10 @@
               </span>
             </li>
           </ol>
-        </div>
+        </section>
         <!-- Summary of qualifications -->
-        <div>
-          <h3 class="title">Summary of qualifications</h3>
+        <section class="section summary">
+          <h2 class="title">Summary of qualifications</h2>
           <h4 class="summary-text">
             A dedicated and efficient full-stack developer. The developer can be involved both in
             the layout and programming of the application interface (Front-End : HTML, CSS , JS ,
@@ -53,15 +62,15 @@
             information with the database (Back-End: Node.js , MondoDB, mySQL). Seeks to further
             improve skills as a future full-stack developer in GOIT.
           </h4>
-        </div>
+        </section>
         <!-- Work -->
-        <div class="work">
-          <h3 class="title">Work Experience</h3>
+        <section class="section work">
+          <h2 class="title">Work Experience</h2>
           <!-- company 1 -->
           <div>
-            <h4 class="work-position">
+            <h3 class="work-position">
               FullStack developer<span class="organization"> GOIT</span>
-            </h4>
+            </h3>
             <p class="period">June 2022 - March 2023<span class="line">|</span> Ukraine</p>
             <!-- <ul class="work-list">
               <li class="work-list-item">
@@ -72,9 +81,9 @@
           </div>
           <!-- company 1 -->
           <div>
-            <h4 class="work-position">
+            <h3 class="work-position">
               Private entrepreneur & founder<span class="organization"> Steelanics</span>
-            </h4>
+            </h3>
             <p class="period">October 2020 - up to now <span class="line">|</span> Ukraine</p>
             <!-- <ul class="work-list">
               <li class="work-list-item">
@@ -85,9 +94,9 @@
           </div>
           <!-- Company 2 -->
           <div>
-            <h4 class="work-position">
+            <h3 class="work-position">
               Chief Engineer <span class="organization">SolarGaps, LLC</span>
-            </h4>
+            </h3>
             <p class="period">May 2018 - October 2020 <span class="line">|</span> Ukraine</p>
             <!-- <ul class="work-list">
               <li class="work-list-item">
@@ -135,10 +144,10 @@
           <!-- </div> -->
           <!-- Company 4 -->
           <div>
-            <h4 class="work-position">
+            <h3 class="work-position">
               Team Leader / Design Engineer (DE2)
               <span class="organization">Tucana Engineering, LLC</span>
-            </h4>
+            </h3>
             <p class="period">April 2015 - May 2018 <span class="line">|</span> Ukraine</p>
             <!-- <ul class="work-list">
               <li class="work-list-item">
@@ -174,9 +183,9 @@
           </div>
           <!-- Company 5-->
           <div>
-            <h4 class="work-position">
+            <h3 class="work-position">
               Design Engineer (DE2) <span class="organization">State Enterprise “ANTONOV”</span>
-            </h4>
+            </h3>
             <p class="period">March 2010 - April 2015 <span class="line">|</span> Ukraine</p>
             <!-- <ul class="work-list">
               <li class="work-list-item">
@@ -200,9 +209,9 @@
           </div>
           <!-- Company 6 -->
           <div>
-            <h4 class="work-position">
+            <h3 class="work-position">
               Design Engineer (DE1) <span class="organization">State Enterprise “ARSENAL”</span>
-            </h4>
+            </h3>
             <p class="period">February 2008 - March 2010 <span class="line">|</span> Ukraine</p>
             <!-- <ul class="work-list">
               <li class="work-list-item">
@@ -214,40 +223,42 @@
               <li class="work-list-item">Quality control of manufactured parts.</li>
             </ul> -->
           </div>
-        </div>
+        </section>
         <!-- Education -->
-        <div class="education-1">
-          <h3 class="title">Higher Education</h3>
-          <!-- University 1-->
-          <h4 class="university-name">
-            National Technical University of Ukraine “Kiev Polytechnical Institute”
-          </h4>
-          <h4 class="speciality">Mechanical Engineer</h4>
-          <p class="period">September 2005 - June 2010 <span class="line">|</span> Ukraine</p>
-        </div>
-        <div class="education-2">
-          <h3 class="title">Additional Higher Education</h3>
-          <!-- University 2-->
-          <h4 class="university-name">National Aviation University</h4>
-          <h4 class="speciality">Engineer of computer systems and networks</h4>
-          <p class="period">June 2010 - September 2012 <span class="line">|</span> Ukraine</p>
-        </div>
+        <section class="section education">
+          <div class="education-1">
+            <h2 class="title">Higher Education</h2>
+            <!-- University 1-->
+            <h3 class="university-name">
+              National Technical University of Ukraine “Kiev Polytechnical Institute”
+            </h3>
+            <h4 class="speciality">Mechanical Engineer</h4>
+            <p class="period">September 2005 - June 2010 <span class="line">|</span> Ukraine</p>
+          </div>
+          <div class="education-2">
+            <h2 class="title">Additional Higher Education</h2>
+            <!-- University 2-->
+            <h3 class="university-name">National Aviation University</h3>
+            <h4 class="speciality">Engineer of computer systems and networks</h4>
+            <p class="period">June 2010 - September 2012 <span class="line">|</span> Ukraine</p>
+          </div>
+        </section>
         <!-- Certificate -->
-        <div>
-          <h3 class="title">Certificate</h3>
-          <h4 class="work-position">
+        <section class="certificate">
+          <h2 class="title">Certificate</h2>
+          <h3 class="certificate-info">
             Certificate FullStack developer <span class="organization">GOIT</span>
-          </h4>
+          </h3>
           <p class="period">June 2022 - March 2023<span class="line">|</span> Ukraine</p>
-        </div>
+        </section>
       </div>
 
       <!-- Sidebar -->
       <aside class="sidebar">
         <img class="photo" src="img/Photo(edit).jpg" alt="User photo" />
         <!-- Contacts -->
-        <div class="contacts">
-          <h3 class="sidebar-title">Contacts</h3>
+        <section class="container-aside contacts">
+          <h2 class="sidebar-title">Contacts</h2>
           <div>
             <p class="contact-line">
               <span class="contact-type">C:</span>
@@ -258,7 +269,7 @@
               <a href="mailto:mr.olegandreev@gmail.com" class="contact-link-email"
                 >mr.olegandreev@gmail.com</a
               >
-            </p>
+              <!-- </p>
             <p class="contact-line">
               <span class="contact-type">G:</span>
               <a href="https://github.com/OlegAndreiev" class="contact-link-git"
@@ -270,12 +281,43 @@
               <a href="https://www.linkedin.com/in/oleg-andreev/" class="contact-link-linkedin"
                 >linkedin.com/in/oleg-andreev/</a
               >
+            </p> -->
             </p>
           </div>
-        </div>
+        </section>
+        <!-- Social links -->
+        <section class="container-aside section social-links">
+          <h2 class="visually-hidden">Social links</h2>
+          <ul class="social-links__list list">
+            <li class="social-links__item">
+              <a
+                href="https://www.linkedin.com/in/oleg-andreev/"
+                class="social-links__link social-links__item--fill-light link"
+                ><svg class="social-links__icon" width="20" height="20">
+                  <use href="./img/icons.svg#icon-linkedin"></use></svg
+              ></a>
+            </li>
+            <li class="social-links__item">
+              <a
+                href="https://github.com/OlegAndreiev"
+                class="social-links__link social-links__item--fill-light link"
+                ><svg class="social-links__icon" width="30" height="30">
+                  <use href="./img/icons.svg#icon-github"></use></svg
+              ></a>
+            </li>
+            <li class="social-links__item">
+              <a
+                href="https://www.facebook.com/profile.php?id=1105311904"
+                class="social-links__link social-links__item--fill-light link"
+                ><svg class="social-links__icon" width="25" height="25">
+                  <use href="./img/icons.svg#icon-facebook"></use></svg
+              ></a>
+            </li>
+          </ul>
+        </section>
         <!-- Tech skills -->
-        <div class="tech-skills">
-          <h3 class="sidebar-title">Tech Skills</h3>
+        <section class="container-aside tech-skills">
+          <h2 class="sidebar-title">Tech Skills</h2>
           <ul class="tech-skills-list">
             <li class="tech-skills-item"><span class="tech-skills-text">HTML</span></li>
             <li class="tech-skills-item"><span class="tech-skills-text">CSS</span></li>
@@ -299,17 +341,17 @@
             <li class="tech-skills-item"><span class="tech-skills-text">Coralogix</span></li>
             <li class="tech-skills-item"><span class="tech-skills-text">Neo4j</span></li>
           </ul>
-        </div>
+        </section>
         <!-- Soft Skills -->
-        <div class="soft-skills">
-          <h3 class="sidebar-title">Soft Skills</h3>
+        <section class="container-aside soft-skills">
+          <h2 class="sidebar-title">Soft Skills</h2>
           <ul class="soft-skills-list">
             <li class="soft-skills-item"><span class="soft-skills-text">Scrum</span></li>
             <li class="soft-skills-item"><span class="soft-skills-text">Agile</span></li>
             <li class="soft-skills-item"><span class="soft-skills-text">GTD</span></li>
             <li class="soft-skills-item"><span class="soft-skills-text">Teamwork</span></li>
           </ul>
-        </div>
+        </section>
       </aside>
     </div>
   </body>
