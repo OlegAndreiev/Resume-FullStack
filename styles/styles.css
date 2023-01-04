@@ -307,8 +307,9 @@ body {
 .social-links__list {
   display: flex;
   /* justify-content: center; */
-  justify-content: space-around;
+  /* justify-content: space-around; */
   margin: 0;
+  /* padding-left: 20px; */
 }
 
 .social-links__item {
@@ -316,9 +317,9 @@ body {
   height: 44px;
   border-radius: 50%;
 }
-/* .social-links__item:not(:last-child) {
+.social-links__item:not(:last-child) {
   margin-right: 20px;
-} */
+}
 
 .social-links__link {
   width: 100%;
