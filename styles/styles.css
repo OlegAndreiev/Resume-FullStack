@@ -48,7 +48,11 @@ body {
 .container {
   background-color: #ffffff;
   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
-  padding: 105px 90px;
+  padding: 60px 70px;
+  /* padding-left: 70px;
+  padding-right: 70px;
+  padding-top: 60px;
+  padding-bottom: 60px; */
 }
 .container-aside {
   padding-left: 40px;
@@ -57,7 +61,7 @@ body {
 
 /* about styles */
 .section {
-  margin-bottom: 80px;
+  margin-bottom: 60px;
 }
 
 .about-position {
